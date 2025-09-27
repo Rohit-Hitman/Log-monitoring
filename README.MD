@@ -7,3 +7,13 @@ start frontend:
     npm install
     npm run dev -- --host
 
+Endpoints:
+
+    POST /upload — upload Excel file (multipart form field name file)
+
+    GET /stats — snapshot JSON of current metrics
+
+    POST /ingest — (existing single-log ingestion API, still present)
+
+    ws://localhost:8000/ws/stats — websocket for real-time updates
+
